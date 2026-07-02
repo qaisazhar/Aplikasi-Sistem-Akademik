@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UAP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/uap_primary</item>
+        <item name="colorPrimaryVariant">@color/uap_primary_variant</item>
+        <item name="colorOnPrimary">@color/uap_on_primary</item>
+        <item name="colorSecondary">@color/uap_secondary</item>
+        <item name="colorSecondaryVariant">@color/uap_secondary_variant</item>
+        <item name="colorOnSecondary">@color/uap_on_primary</item>
+        <item name="android:colorBackground">@color/uap_background</item>
+        <item name="colorSurface">@color/uap_surface</item>
+        <item name="colorOnBackground">@color/uap_text_primary</item>
+        <item name="colorOnSurface">@color/uap_text_primary</item>
+        <item name="colorError">@color/uap_error</item>
+        <item name="colorOnError">@color/uap_on_primary</item>
+        <item name="android:statusBarColor">@color/uap_status_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/uap_primary</item>
+        <item name="android:windowBackground">@color/uap_background_grey</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="materialButtonStyle">@style/Widget.UAP.Button</item>
+        <item name="bottomNavigationStyle">@style/Widget.UAP.BottomNavigation</item>
+        <item name="textInputStyle">@style/Widget.UAP.TextInputLayout</item>
+        <item name="cardViewStyle">@style/Widget.UAP.CardView</item>
+        <item name="colorControlHighlight">@color/uap_ripple_primary</item>
+    </style>
+    <style name="Theme.UAP.SplashScreen" parent="Theme.UAP">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/uap_primary</item>
+        <item name="android:statusBarColor">@color/uap_primary</item>
+        <item name="android:navigationBarColor">@color/uap_primary</item>
+    </style>
+    <style name="Widget.UAP.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/uap_primary</item>
+        <item name="android:textColor">@color/uap_on_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/uap_ripple_light</item>
+        <item name="elevation">4dp</item>
+    </style>
+    <style name="Widget.UAP.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">@color/uap_nav_bar</item>
+        <item name="itemIconTint">@color/uap_nav_selector</item>
+        <item name="itemTextColor">@color/uap_nav_selector</item>
+        <item name="elevation">8dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+    <style name="Widget.UAP.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/uap_border_focus</item>
+        <item name="hintTextColor">@color/uap_primary</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxBackgroundColor">@color/uap_background</item>
+    </style>
+    <style name="Widget.UAP.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/uap_card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="uap_primary">#4A148C</color>
+    <color name="uap_primary_variant">#6A1B9A</color>
+    <color name="uap_primary_dark">#2D006A</color>
+    <color name="uap_secondary">#9C27B0</color>
+    <color name="uap_secondary_variant">#AB47BC</color>
+    <color name="uap_secondary_light">#CE93D8</color>
+    <color name="uap_accent">#E1BEE7</color>
+    <color name="uap_gold">#FFD54F</color>
+    <color name="uap_teal">#26C6DA</color>
+    <color name="uap_background">#FFFFFF</color>
+    <color name="uap_surface">#F3E5F5</color>
+    <color name="uap_background_grey">#FAFAFA</color>
+    <color name="uap_surface_variant">#EDE7F6</color>
+    <color name="uap_on_primary">#FFFFFF</color>
+    <color name="uap_text_primary">#1A1A2E</color>
+    <color name="uap_text_secondary">#616161</color>
+    <color name="uap_text_hint">#9E9E9E</color>
+    <color name="uap_text_on_purple">#FFFFFF</color>
+    <color name="uap_divider">#E0E0E0</color>
+    <color name="uap_border">#D1C4E9</color>
+    <color name="uap_border_focus">#7B1FA2</color>
+    <color name="uap_success">#4CAF50</color>
+    <color name="uap_warning">#FF9800</color>
+    <color name="uap_error">#F44336</color>
+    <color name="uap_info">#2196F3</color>
+    <color name="uap_nav_bar">#4A148C</color>
+    <color name="uap_nav_item_active">#FFFFFF</color>
+    <color name="uap_nav_item_inactive">#CE93D8</color>
+    <color name="uap_status_bar">#2D006A</color>
+    <color name="uap_card_background">#FFFFFF</color>
+    <color name="uap_shadow">#1A4A148C</color>
+    <color name="uap_ripple_primary">#339C27B0</color>
+    <color name="uap_ripple_light">#334A148C</color>
+</resources>
